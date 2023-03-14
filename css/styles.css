@@ -1,0 +1,826 @@
+html {
+  background-color: rgb(217, 217, 217);
+}
+
+body {
+  max-width: 1536px !important;
+}
+
+.navbar {
+  background-color: rgb(217, 217, 217) !important;
+}
+.navbar .nav-item {
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .nav-item button {
+  background-color: rgb(217, 217, 217);
+  font-size: small;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 10px;
+  transition: 0.1s ease-out;
+}
+.navbar .nav-item button a {
+  color: black !important;
+  text-decoration: none;
+}
+.navbar .nav-item a:hover {
+  font-weight: 600;
+  color: rgb(84, 0, 0);
+  transition: 0.1s ease-in;
+}
+.navbar .nav-item .Number {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+.navbar .navbar-brand {
+  padding-left: 368px;
+}
+.navbar .Bookonline {
+  padding-left: 428px;
+  font-weight: 600;
+}
+.navbar .Bookonline button {
+  color: black !important;
+  transition: 0.1s ease-out;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgb(217, 217, 217);
+}
+.navbar .Bookonline button a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white !important;
+  transition: 0.3s ease-in;
+}
+.navbar .Bookonline button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white !important;
+  transition: 0.3s ease-in;
+}
+.navbar .Number {
+  padding-left: 8px;
+  font-weight: 600;
+  color: black;
+}
+
+footer {
+  background-color: rgb(39, 37, 43) !important;
+  height: 300px;
+  display: flex;
+  width: 100%;
+}
+footer .Logowhite {
+  padding-top: 20px;
+  height: 80px;
+  padding-left: 50px;
+  color: white;
+  display: inline;
+}
+footer .para {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+footer .socialmedia {
+  height: 23px;
+  padding-left: 38px;
+  color: white;
+}
+footer .number1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 40px;
+  padding-top: 18px;
+  font-weight: bold;
+}
+footer .section1 {
+  padding-left: 40px;
+  margin-left: 35px;
+}
+footer .section2 {
+  color: white;
+  margin-top: 40px;
+  margin-left: 190px;
+  font-family: "Montserrat", sans-serif;
+}
+footer .section2 .timings1 {
+  font-size: 13px;
+  margin-top: 30px;
+  font-variant: small-caps;
+  font-weight: 500;
+}
+footer .section3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  margin-left: 200px;
+  font-size: 22px;
+  margin-top: 41px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+footer .section4 {
+  margin-top: 130px;
+  margin-left: 150px;
+}
+footer .section4 img {
+  height: 24px;
+}
+
+.stylist {
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+.stylist h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  font-weight: 600;
+  padding: 20px;
+}
+.stylist .stylist1 {
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.stylist .stylist1 .marin {
+  text-align: center;
+}
+.stylist .stylist1 .marin p {
+  font-variant: normal;
+}
+.stylist .stylist1 .marin h3 {
+  padding: 10px;
+}
+.stylist .marin1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+}
+.stylist .marin1 h3 {
+  padding: 10px;
+}
+.stylist .marin1 p {
+  font-variant: normal;
+}
+
+.testimonials {
+  background-color: rgb(217, 217, 217);
+  display: flex;
+}
+.testimonials .image1 {
+  text-align: center;
+}
+.testimonials .image1 img {
+  height: 260px;
+}
+.testimonials .image2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.testimonials .image2 img {
+  height: 1000px;
+}
+
+.aboutme {
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+}
+.aboutme .para1 {
+  padding-left: 400px;
+  text-align: center;
+  padding-right: 400px;
+  padding-top: 20px;
+}
+.aboutme .para1 p {
+  font-variant: normal;
+}
+.aboutme .para2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.aboutme .para2 .item1 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.aboutme .para2 .item2 {
+  padding-left: 30px;
+  text-align: center;
+}
+.aboutme .para2 .item2 .form1 {
+  padding: 30px;
+}
+.aboutme .para2 .item2 .form1 .bar {
+  padding: 10px;
+}
+.aboutme .para2 .item2 .form1 button {
+  width: 100px;
+  margin-left: 190px;
+}
+
+.box1 {
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+}
+.box1 .content1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -20px;
+}
+.box1 .content1 .boxes1 {
+  margin-top: 230px;
+  margin-left: 100px;
+  padding-left: 100px;
+}
+.box1 .content1 .boxes1 .imagebeautyful img {
+  height: 75px;
+  transition: 0.1s ease-out;
+}
+.box1 .content1 .boxes1 .imagebeautyful img:hover {
+  height: 80px;
+  transition: 0.2s ease-in;
+}
+.box1 .content1 .boxes1 .parah1 {
+  font-weight: 600;
+}
+.box1 .content1 .boxes1 .imagebooknow .animatedbutton {
+  margin-left: -140px;
+  margin-top: 20px;
+  text-align: center;
+}
+.box1 .content1 .boxes1 .imagebooknow button {
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 2px 10px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-variant: small-caps;
+  overflow: hidden;
+  border: 0px;
+  background-color: rgb(217, 217, 217);
+  transition: 0.1s ease-out;
+}
+.box1 .content1 .boxes1 .imagebooknow button a {
+  text-decoration: none;
+  color: black;
+}
+.box1 .content1 .boxes1 .imagebooknow button:hover {
+  font-size: 18px;
+  transition: 0.2s ease-in;
+}
+.box1 .content1 .boxes1 .imagebooknow button span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate1 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.box1 .content1 .boxes1 .imagebooknow button span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate2 2s linear infinite;
+}
+@keyframes animate2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.box1 .content1 .boxes1 .imagebooknow button span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.box1 .content1 .boxes1 .imagebooknow button span:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate4 2s linear infinite;
+}
+@keyframes animate4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+.box1 .content1 .boxes2 {
+  background-image: url(../IMAGES/pexels-photo-3993320.png);
+  background-repeat: no-repeat;
+  background-position: 0px -150px;
+  background-size: cover;
+  border-radius: 20px;
+  margin-left: 150px;
+}
+.box1 .content1 .boxes2 .null {
+  height: 630px;
+  width: 700px;
+  border-radius: 20px;
+  transition: 0.2s ease-out;
+}
+.box1 .content1 .boxes2 .null:hover {
+  width: 800px;
+  transition: 0.3s ease-in;
+}
+.box1 .featured {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.box1 .featured .featuredin {
+  margin-top: 30px;
+}
+.box1 .featured .featuredin img {
+  height: 120px;
+  justify-content: space-evenly;
+}
+.box1 .featured .featuredin h3 {
+  opacity: 80%;
+}
+.box1 .reviews {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+.box1 .reviews .review1 img {
+  height: 100px;
+}
+.box1 .viewmorebutton {
+  text-align: right;
+  margin-right: 307px;
+  margin-top: -6px;
+}
+.box1 .viewmorebutton button {
+  border: 0px;
+  background-color: rgb(217, 217, 217);
+  font-size: 12px;
+  opacity: 50%;
+}
+.box1 .viewmorebutton button:hover {
+  text-decoration: underline;
+}
+.box1 .stylisthome {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+.box1 .stylisthome .stylist1 {
+  margin-left: 225px;
+}
+.box1 .stylisthome .stylist1 img {
+  height: 650px;
+}
+.box1 .stylisthome .stylist2 {
+  text-align: left;
+  align-items: start;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-right: 300px;
+  font-size: 14px;
+}
+.box1 .stylisthome .stylist2 span {
+  font-weight: 600;
+}
+.box1 .stylisthome .stylist2 img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+.box1 .stylisthome .stylist2 .viewmorebutton1 {
+  margin-right: 250px;
+  margin-top: -6px;
+}
+.box1 .stylisthome .stylist2 .viewmorebutton1 button {
+  border: 0px;
+  background-color: rgb(217, 217, 217);
+  font-size: 12px;
+  opacity: 50%;
+}
+.box1 .stylisthome .stylist2 .viewmorebutton1 button:hover {
+  text-decoration: underline;
+}
+.box1 .serviceshome .services1 {
+  text-align: center;
+  margin: 60px;
+}
+.box1 .serviceshome .services1 img {
+  height: 60px;
+}
+.box1 .serviceshome .services2 {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.box1 .serviceshome .services2 .blue {
+  background-color: rgba(171, 235, 255, 0.689);
+}
+.box1 .serviceshome .services2 .green {
+  background-color: rgb(187, 206, 171);
+}
+.box1 .serviceshome .services2 .red {
+  background-color: rgb(206, 171, 171);
+}
+.box1 .serviceshome .services2 .purple {
+  background-color: rgb(201, 171, 206);
+}
+.box1 .serviceshome .services2 .boxservices1 {
+  margin-left: 8px;
+  border-radius: 24px;
+}
+.box1 .serviceshome .services2 .boxservices1 img {
+  margin-left: -0.62vh;
+  margin-right: -0.62vh;
+  height: 250px;
+  transition: 0.1s ease-out;
+}
+.box1 .serviceshome .services2 .boxservices1 h3 {
+  margin: -10px;
+}
+.box1 .serviceshome .services2 .boxservices1 p {
+  font-size: 10px;
+  font-variant: normal;
+}
+.box1 .serviceshome .services2 .boxservices1:hover img {
+  height: 300px;
+  transition: 0.4s ease-in;
+}
+.box1 .serviceshome .services2 .boxservices1:hover::after img {
+  height: 250px;
+}
+.box1 .instagram {
+  text-align: center;
+  margin: 100px;
+  margin-left: 120px;
+}
+.box1 .instagram h4 {
+  font-family: "Noto Serif", serif;
+}
+.box1 .instagram .animatedbutton1 {
+  margin-left: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+.box1 .instagram button {
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 2px 10px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-variant: small-caps;
+  overflow: hidden;
+  border: 0px;
+  background-color: rgb(217, 217, 217);
+  transition: 0.1s ease-out;
+}
+.box1 .instagram button:hover {
+  font-size: 18px;
+  transition: 0.2s ease-in;
+}
+.box1 .instagram button span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate1 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.box1 .instagram button span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate2 2s linear infinite;
+}
+@keyframes animate2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.box1 .instagram button span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.box1 .instagram button span:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate4 2s linear infinite;
+}
+@keyframes animate4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.buttontest {
+  background-color: rgb(217, 217, 217);
+}
+.buttontest a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 2px 20px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+.buttontest a span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate1 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.buttontest a span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5px;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate2 2s linear infinite;
+}
+@keyframes animate2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.buttontest a span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.buttontest a span:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 3px;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate4 2s linear infinite;
+}
+@keyframes animate4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.stylistmain {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(217, 217, 217);
+}
+.stylistmain .stylistblock1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stylistmain .stylistblock1 .stylistbox1 .cuts {
+  height: 700px;
+}
+.stylistmain .stylistblock1 .stylistbox2 {
+  margin-left: -200px;
+}
+.stylistmain .stylistblock1 .stylistbox2 .color {
+  height: 800px;
+}
+.stylistmain .stylistblock2 {
+  margin-top: 100px;
+  text-align: center;
+}
+.stylistmain .stylistblock3 {
+  text-align: center;
+  margin-top: 50px;
+}
+.stylistmain .stylistblock3 p {
+  font-weight: 600;
+}
+.stylistmain .stylistblock3 h2 {
+  font-weight: bold;
+}
+.stylistmain .stylistblock3 .animatedbutton3 {
+  margin-left: 130px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.stylistmain .stylistblock3 button {
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 2px 16px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-variant: small-caps;
+  overflow: hidden;
+  border: 0px;
+  background-color: rgb(217, 217, 217);
+  transition: 0.1s ease-out;
+  text-align: center;
+  align-content: center;
+}
+.stylistmain .stylistblock3 button a {
+  text-decoration: none;
+  color: black;
+}
+.stylistmain .stylistblock3 button:hover {
+  font-size: 21px;
+  transition: 0.2s ease-in;
+}
+.stylistmain .stylistblock3 button span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate1 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.stylistmain .stylistblock3 button span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate2 2s linear infinite;
+}
+@keyframes animate2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.stylistmain .stylistblock3 button span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.905);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.stylistmain .stylistblock3 button span:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.889);
+  animation: animate4 2s linear infinite;
+}
+@keyframes animate4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}/*# sourceMappingURL=styles.css.map */
